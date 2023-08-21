@@ -1,0 +1,59 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: lightblue;
+    padding: 8px;
+    color: white;
+}
+
+#contact-title {
+    font-size: 36px;
+    margin: 0px;
+}
+
+@media (max-width: 400px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        font-size: 18px;
+    }
+
+    .address-container {
+        
+    }
+
+    .phone-container, .email-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .other-contact-container {
+        display: flex;
+        gap: 8px;
+    }
+
+    .contact-btn {
+        height: 30px; 
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .phone-icon, .email-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .contact-image {
+        width: clamp(240px, 100%, 340px);
+        height: clamp(160px, 100%, 250px);
+    }
+}
