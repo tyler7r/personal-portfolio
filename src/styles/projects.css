@@ -19,14 +19,14 @@
     }
 
     .project-card {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         border: 1px solid lightgray;
         width: 100%;
     }
 
     .project-preview-container {
-        background-color: rgb(173, 216, 230, 0.5);
+        background-color: rgb(173, 216, 230);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,7 +54,7 @@
 
     .project-btns-container {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         gap: 4px;
         align-items: center;
     }
@@ -62,6 +62,7 @@
     .project-btn {
         height: 30px;
         width: 30px;
+        cursor: pointer;
     }
 
     .project-description {

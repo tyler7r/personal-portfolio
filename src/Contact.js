@@ -19,18 +19,18 @@ export const Contact = (props) => {
                 </div>
                 <div className='phone-container'>
                     <img src={PhoneIcon} alt='phone-icon' className='phone-icon' />
-                    <div id='phone-number'>404-984-7244</div>
+                    <a href='tel:4049847244' id='phone-number'>404-984-7244</a>
                 </div>
                 <div className='email-container'>
                     <img src={EmailIcon} alt='email-icon' className='email-icon' />
-                    <div id='email-address'>tyler7r@gmail.com</div>
+                    <a href='mailto:tyler7r@gmail.com' id='email-address'>tyler7r@gmail.com</a>
                 </div>
                 <div className='other-contact-container'>
-                    <img className='contact-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' />
+                    <Link to='https://github.com/tyler7r'><img className='contact-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' /></Link>
                     <img className='contact-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt='linkdin-icon' />
                 </div>
             </div>
-            <img src={ProfilePic} alt='contact-picture' className='contact-image' />
+            <img src={ProfilePic} alt='profile' className='contact-image' />
         </div>
     )
 }

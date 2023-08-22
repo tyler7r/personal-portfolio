@@ -18,8 +18,8 @@ export const Projects = (props) => {
                     <div className="project-info">
                         <div className='project-name'>The Odinbook</div>
                         <div className="project-btns-container">
-                            <img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' />
-                            <img className='project-btn' src={OpenProjectIcon} alt='open-project' />
+                            <Link to='https://github.com/tyler7r/TOP-odin-book'><img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' /></Link>
+                            <Link to='https://top-odinbook.netlify.app/odinbook/login'><img className='project-btn' src={OpenProjectIcon} alt='open-project' /></Link>
                         </div>
                         <div className='project-description'>This is the description</div>
                     </div>
@@ -29,8 +29,8 @@ export const Projects = (props) => {
                     <div className="project-info">
                         <div className='project-name'>Shopping Cart</div>
                         <div className="project-btns-container">
-                            <img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' />
-                            <img className='project-btn' src={OpenProjectIcon} alt='open-project' />
+                            <Link to='https://github.com/tyler7r/TOP-shopping-cart/tree/tyler7r-patch-1'><img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' /></Link>
+                            <Link to='https://tyler7r.github.io/TOP-shopping-cart/'><img className='project-btn' src={OpenProjectIcon} alt='open-project' /></Link>
                         </div>
                         <div className='project-description'>This is the description</div>
                     </div>
@@ -51,8 +51,8 @@ export const Projects = (props) => {
                     <div className="project-info">
                         <div className='project-name'>Knight Travails</div>
                         <div className="project-btns-container">
-                            <img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' />
-                            <img className='project-btn' src={OpenProjectIcon} alt='open-project' />
+                            <Link to='https://github.com/tyler7r/TOP-knight-travails'><img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' /></Link>
+                            <Link to='https://tyler7r.github.io/TOP-knight-travails/'><img className='project-btn' src={OpenProjectIcon} alt='open-project' /></Link>
                         </div>
                         <div className='project-description'>This is the description</div>
                     </div>
@@ -62,8 +62,8 @@ export const Projects = (props) => {
                     <div className="project-info">
                         <div className='project-name'>Todo List / Calculator</div>
                         <div className="project-btns-container">
-                            <img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' />
-                            <img className='project-btn' src={OpenProjectIcon} alt='open-project' />
+                            <Link to='https://github.com/tyler7r/TOP-calculator'><img className='project-btn' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github-icon' /></Link>
+                            <Link to='https://tyler7r.github.io/TOP-calculator/'><img className='project-btn' src={OpenProjectIcon} alt='open-project' /></Link>
                         </div>
                         <div className='project-description'>This is the description</div>
                     </div>
