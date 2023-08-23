@@ -3,64 +3,149 @@
     padding: 0;
 }
 
-.header-image {
-    background-image: url('../images/trandall_profile.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.header-description {
+    margin: 0px;
 }
 
-@media (max-width: 400px) {
+.header-title {
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-buttons-container {
+    display: flex;
+    gap: 4px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 12px 0px 12px;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0,0,0, 0.3);
+}
+
+@media screen and (max-width: 480px) {
     .header-section {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        gap: 4px;
         min-width: 220px;
+        gap: 4px;
+        background-image: linear-gradient(30deg, white 0 50%, lightblue 50%)
+    }
+
+    .header-image-container {
+        position: relative;
+    }
+
+    .header-name {
+        position: absolute;
+        color: white;
+        bottom: 0;
+        left: 19%;
+        font-size: 32px;
     }
 
     .header-image {
         width: clamp(240px, 273px, 340px);
-        font-size: 36px;
         height: clamp(160px, 230px, 235px);
-        margin-bottom: 8px;
-    }
-
-    .header-info {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 12px 0px 12px;
-        padding: 4px;
-        text-align: center;
-        align-items: center;
-        gap: 8px;
-        height: 100%;
-    }
-
-    .header-title {
-        margin: 0px;
-        text-align: center;
-        font-size: 24px;
-        font-weight: 500;
-    }
-
-    .header-description {
-        margin: 0px;
-    }
-
-    .header-buttons-container {
-        display: flex;
-        gap: 4px;
     }
 
     .header-btn {
         height: 30px;
         width: 30px;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 760px) and (min-width: 481px) {
+    .header-section {
+        position: relative;
+        background-image: linear-gradient(30deg, white 0 50%, lightblue 50%)
+    }
+
+    .header-image-container {
+        display: flex;
+        position: relative;
+        margin: 16px;
+    }
+
+    .header-image {
+        height: 230px;
+        width: 270px;
+    }
+
+    .header-name {
+        position: absolute;
+        color: white;
+        font-size: 11vw;
+        left: 230px;
+    }
+
+    .header-buttons-container {
+        position: absolute;
+        top: 40%;
+        left: 65%;
+        margin: 16px;
+    }
+
+    .header-btn {
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1200px) {
+    .header-section {
+        position: relative;
+        display: flex;
+        padding: 16px;
+        background-image: linear-gradient(15deg, white 0 50%, lightblue 50%)
+    }
+
+    .header-image-container {
+        position: relative;
+        height: 100%;
+    }
+
+    .header-name {
+        position: absolute;
+        color: white;
+        font-size: 48px;
+        bottom: 2px;
+        left: 8%;
+    }
+
+    .header-info {
+        margin: 16px 0px 8px 0px;
+        min-height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-image {
+        height: 270px;
+    }
+
+    .header-buttons-container {
+        position: absolute;
+        left: 65%;
+        bottom: 5%;
+    }
+
+    .header-btn {
+        height: 60px;
+        width: 60px;
     }
 }

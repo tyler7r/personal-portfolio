@@ -1,8 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio-container {
     display: flex;
     flex-direction: column;
     gap: 16px;
     min-width: 220px;
-    margin: 0;
-    padding: 0;
 }
