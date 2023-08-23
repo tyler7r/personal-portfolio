@@ -17,8 +17,7 @@ export const Header = (props) => {
             <div className='header-info'>
                 <h2 className='header-title'>About me</h2>
                 <p className='header-description'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Hi! I am a developer from Atlanta, Georgia who is passionate about building sites with simple solutions and in-depth, user-friendly UI. I recently completed The Odin Project and I wanted to share some of the work that I have completed for it. Most of my work is done with a combination of HTML, CSS, Javascript, React, Node, Express and MongoDB.
                 </p>
             </div>
 
